@@ -1,0 +1,169 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* 页眉样式 */
+.header {
+    background-color: #8b4513;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+.header .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header .navbar ul li {
+    margin-left: 20px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 主视觉区样式 */
+.hero {
+    background-color: #eee;
+    padding: 100px 10%;
+    text-align: center;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* 关于我们部分样式 */
+.about {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* 房间介绍部分样式 */
+.rooms {
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.rooms h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.rooms .room-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rooms .room-list li {
+    margin: 10px 0;
+}
+
+.rooms .room-list li a {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+/* 位置及交通部分样式 */
+.location {
+    padding: 50px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.location h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.location-image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* 联系我们部分样式 */
+.contact {
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact .btn {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
